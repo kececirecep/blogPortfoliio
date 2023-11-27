@@ -3,7 +3,7 @@ import React from 'react'
 const BlogCard = (props) => {
   return (
     <div className='container mx-auto'>
-      <div className='w-[370px] h-[400px] bg-[#192338] rounded-xl text-[20px]'>
+      <div className='w-[370px] h-[420px] bg-[#192338] rounded-xl text-[20px]'>
         <img src={props.thumbnail} width="100%" className='rounded-t-xl object-cover' alt="" />
         <div className="flex flex-col items-center p-6">
           <h4 className='text-[24px] font-bold'>{props.title}</h4>
