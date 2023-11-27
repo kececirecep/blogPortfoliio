@@ -7,7 +7,7 @@ import Project3 from '../../images/HomePage/project3.png'
 const RecentProjects = () => {
   return (
     <div>
-      <h2 className='font-bold text-4xl'>Recent <span className='specialColor'>Projects</span></h2>
+      <h2 className='font-bold lg:text-4xl text-[20px]'>Recent <span className='specialColor'>Projects</span></h2>
       <RecentProjectsCard
         img={Project1}
         projectName="Project 1"
