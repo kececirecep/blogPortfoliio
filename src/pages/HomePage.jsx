@@ -6,13 +6,13 @@ import LatestPosts from '../components/Home/LatestPosts'
 const HomePage = () => {
   return (
     <>
-      <div className='lg:pt-36 pt-4'>
+      <div className='lg:pt-36 pt-8'>
         <Hero />
       </div>
-      <div className='pt-36'>
+      <div className='lg:pt-36 pt-8'>
         <RecentProjects />
       </div>
-      <div className='pt-36'>
+      <div className='lg:pt-36 pt-8'>
         <LatestPosts/>
       </div>
     </>
