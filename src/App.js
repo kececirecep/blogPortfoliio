@@ -9,7 +9,7 @@ import { Route,Routes } from 'react-router-dom';
 function App() {
   return (
     <>
-    <div className="container mx-auto">
+    <div className="lg:container mx-auto w-[350px]">
       <Header/>
       <Routes>
         <Route path='/' element={<HomePage/>} />
