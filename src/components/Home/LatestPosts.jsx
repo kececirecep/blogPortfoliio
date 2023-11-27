@@ -20,7 +20,7 @@ const LatestPosts = () => {
         <div>
             <div className='flex items-center justify-between'>
                 <h2 className='font-bold text-4xl'>Latest <span className='specialColor'>Posts</span></h2>
-                <Link><span className='flex gap-2 items-center text-2xl' >View all Posts<FiArrowRightCircle style={iconStyle} /></span></Link>
+                <Link to="/blog"><span className='flex gap-2 items-center text-2xl' >View all Posts<FiArrowRightCircle style={iconStyle} /></span></Link>
             </div>
             <div className='flex flex-wrap py-4'>
                 {lastBlog.map((blog) => (
